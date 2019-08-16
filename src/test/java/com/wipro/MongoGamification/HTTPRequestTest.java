@@ -24,7 +24,7 @@ public class HTTPRequestTest {
 
     @Test
     public void greetingShouldReturnDefaultMessage() throws Exception {
-        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/",
+        assertThat(this.restTemplate.getForObject("ec2-13-234-225-9.ap-south-1.compute.amazonaws.com",
                 String.class));
     }
 }
