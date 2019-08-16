@@ -28,7 +28,7 @@ public class RandomPortTest {
   {
       RestTemplate restTemplate = new RestTemplate();
        
-      final String baseUrl = "http://localhost:"+randomServerPort+"/";
+      final String baseUrl = "http://ec2-52-66-245-186.ap-south-1.compute.amazonaws.com:8080";
       URI uri = new URI(baseUrl);
    
      
